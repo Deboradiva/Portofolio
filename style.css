@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #222;
+}
+
+.hero {
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #38bdf8;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  list-style: none;
+  background: #e5e7eb;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.project-card {
+  margin-bottom: 30px;
+}
+
+.project-card .tech {
+  font-size: 14px;
+  color: #475569;
+  margin: 10px 0;
+}
+
+
+.contact {
+  text-align: center;
+  background: #020617;
+  color: white;
+  padding: 40px 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .skills ul {
+    flex-direction: column;
+  }
+}
+
+.experience {
+  padding: 60px 20px;
+}
+
+.exp-item {
+  margin-bottom: 40px;
+}
+
+.exp-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.company {
+  font-weight: 500;
+  color: #475569;
+}
+
+.year {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.exp-item ul {
+  padding-left: 20px;
+}
+
+.exp-item li {
+  margin-bottom: 8px;
+}
